@@ -23,8 +23,6 @@ The aim is also to serve as a benchmark of algorithms and metrics for research o
 ⭐ Includes metrics for checking if you can trust the explanations, and tuning them for best performance.
 
 
-![visualization](https://github.com/jacobgil/jacobgil.github.io/blob/master/assets/cam_dog.gif?raw=true
-)
 
 | Method              | What it does                                                                                                                |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------|
