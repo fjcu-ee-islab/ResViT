@@ -1,0 +1,1 @@
+python train.py --num_classes=4 --epochs=50 --batch-size=128 --pick=67722 --data-path="data/cropaug/3rotate/pick6"
