@@ -1,0 +1,6 @@
+python vit.py --image-path="00010.jpg" --method="gradcam" --savepath="123/"
+python vit.py --image-path="00010.jpg" --method="gradcam++" --savepath="123/"
+python vit.py --image-path="00010.jpg" --method="layercam" --savepath="123/"
+python vit.py --image-path="00010.jpg" --method="scorecam" --savepath="123/"
+python vit.py --image-path="00010.jpg" --method="eigencam" --savepath="123/"
+python vit.py --image-path="00010.jpg" --method="eigengradcam" --savepath="123/"
