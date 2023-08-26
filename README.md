@@ -1,6 +1,6 @@
 # ResViT
 
-In this paper, we propose the ResViT architecture to address the issue of insufficient training data in medical imaging.
+We propose the ResViT architecture to address the issue of insufficient training data in medical imaging.
 
 We are the first to propose the staged and overall architecture algorithms and learning algorithms base on ViT framework.
 
