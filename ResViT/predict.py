@@ -23,11 +23,11 @@ def main(args):
 #normal
 #severe
 #mildmoderate
-    tlist=["normal","severe","mildmoderate"]
+    tlist=["normal","severe","milld","moderate"]
     a=0
     for i in range(1,4):
         #print(tlist[a])
-        ptn = "test2/"+tlist[a]+"/"
+        ptn = "data/retrain/test/"+tlist[a]+"/"
         dir = os.listdir(ptn)
         dir.sort()
         pro=0
@@ -44,7 +44,7 @@ def main(args):
             img = torch.unsqueeze(img, dim=0)
 
             # read class_indict
-            json_path = 'class_indices100088.json'
+            json_path = 'class_ind1ces.json'
             assert os.path.exists(json_path), "file: '{}' dose not exist.".format(json_path)
 
             with open(json_path, "r") as f:
@@ -73,15 +73,11 @@ def main(args):
                     n=n+1
         if a==0:
             acc0 = float(pro/n)
-            print(acc0)
         elif a==1:
             acc1 = float(pro/n)
-            print(acc1)
         elif a==2:
             acc2 = float(pro/n)
-            print(acc2)
-            acc = (acc0+acc1+acc2)/3
-            print(acc)
+            acc = (round(acc0,3)+round(acc1,3)+round(acc2,3))/3
             #print(tlist[a]+" average accuracy : " + str(acc))        
             #if n==len(dir):
             f = open("predict.txt", "a")

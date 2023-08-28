@@ -23,9 +23,9 @@ def main(args):
 #normal
 #severe
 #mildmoderate
-    tlist=["normal","severe","mild","moderate"]
+    tlist=["nm","ms"]
     a=0
-    for i in range(1,4):
+    for i in range(1,3):
         #print(tlist[a])
         ptn = "data/retrain/test/"+tlist[a]+"/"
         dir = os.listdir(ptn)
@@ -44,13 +44,13 @@ def main(args):
             img = torch.unsqueeze(img, dim=0)
 
             # read class_indict
-            json_path = 'class_ind1ces.json'
+            json_path = 'class_indices22.json'
             assert os.path.exists(json_path), "file: '{}' dose not exist.".format(json_path)
 
             with open(json_path, "r") as f:
                 class_indict = json.load(f)
             # create model
-            model = create_model(num_classes=3, has_logits=False).to(device)
+            model = create_model(num_classes=2, has_logits=False).to(device)
             # load model weights
             model_weight_path = str(args.wpath)
             model.load_state_dict(torch.load(model_weight_path, map_location=device))
@@ -73,11 +73,9 @@ def main(args):
                     n=n+1
         if a==0:
             acc0 = float(pro/n)
-        elif a==1:
+        elif:
             acc1 = float(pro/n)
-        elif a==2:
-            acc2 = float(pro/n)
-            acc = (round(acc0)+round(acc1)+round(acc2))/3
+            acc = (round(acc0)+round(acc1))/2
             #print(tlist[a]+" average accuracy : " + str(acc))        
             #if n==len(dir):
             f = open("predict.txt", "a")
