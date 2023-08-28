@@ -5,7 +5,13 @@ Downloads [docker image](https://hub.docker.com/layers/moeaidb/aigo/cu11.1-dnn8.
 
 
 ## ResVIT training & test
-### ResVit traning
+### ResVit preprocessing
+downloads training & test data put in ```./data/train```
+```
+sh crop.sh
+sh cropaug.sh
+```
+### ResVit training
 downloads training & test data put in ```./data/train```
 ```
 sh train.sh
