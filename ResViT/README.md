@@ -16,3 +16,8 @@ downloads training & test data put in ```./data/train```
 ```
 sh train.sh
 ```
+### ResVit test
+downloads training & test data put in ```./data/train```
+```
+sh test.sh
+```
