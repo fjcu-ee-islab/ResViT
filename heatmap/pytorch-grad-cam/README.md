@@ -14,18 +14,9 @@
 
 # Running the example script:
 
-`sh cam.sh`
+```
+sh cam.sh
+```
+# Merge all heamap results into one image
 
-----------
-
-You can choose between:
-
-`GradCAM` , `HiResCAM`, `ScoreCAM`, `GradCAMPlusPlus`, `AblationCAM`, `XGradCAM` , `LayerCAM`, `FullGrad` and `EigenCAM`.
-
-Some methods like ScoreCAM and AblationCAM require a large number of forward passes,
-and have a batched implementation.
-
-You can control the batch size with
-`cam.batch_size = `
-
-----------
+'run the saveall.ipynb'
