@@ -1,43 +1,13 @@
 # Advanced AI explainability for PyTorch
 
-`pip install grad-cam`
-
-Documentation with advanced tutorials: [https://jacobgil.github.io/pytorch-gradcam-book]
-
-
-This is a package with state of the art methods for Explainable AI for computer vision.
-This can be used for diagnosing model predictions, either in production or while
-developing models.
-The aim is also to serve as a benchmark of algorithms and metrics for research of new explainability methods.
-
-⭐ Comprehensive collection of Pixel Attribution methods for Computer Vision.
-
-⭐ Tested on many Common CNN Networks and Vision Transformers.
-
-⭐ Advanced use cases: Works with Classification, Object Detection, Semantic Segmentation, Embedding-similarity and more.
-
-⭐ Includes smoothing methods to make the CAMs look nice.
-
-⭐ High performance: full support for batches of images in all methods.
-
-⭐ Includes metrics for checking if you can trust the explanations, and tuning them for best performance.
-
-
-
 | Method              | What it does                                                                                                                |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | GradCAM             | Weight the 2D activations by the average gradient                                                                           |
-| HiResCAM            | Like GradCAM but element-wise multiply the activations with the gradients; provably guaranteed faithfulness for certain models |
-| GradCAMElementWise  | Like GradCAM but element-wise multiply the activations with the gradients then apply a ReLU operation before summing        |
 | GradCAM++           | Like GradCAM but uses second order gradients                                                                                |
-| XGradCAM            | Like GradCAM but scale the gradients by the normalized activations                                                          |
-| AblationCAM         | Zero out activations and measure how the output drops (this repository includes a fast batched implementation)              |
 | ScoreCAM            | Perbutate the image by the scaled activations and measure how the output drops                                              |
 | EigenCAM            | Takes the first principle component of the 2D Activations (no class discrimination, but seems to give great results)        |
 | EigenGradCAM        | Like EigenCAM but with class discrimination: First principle component of Activations*Grad. Looks like GradCAM, but cleaner |
 | LayerCAM            | Spatially weight the activations by positive gradients. Works better especially in lower layers                             |
-| FullGrad            | Computes the gradients of the biases from all over the network, and then sums them                                          |
-| Deep Feature Factorizations           | Non Negative Matrix Factorization on the 2D activations                                                 |
 
 ## Visual Examples
 
