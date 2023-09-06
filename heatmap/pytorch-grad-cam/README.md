@@ -14,10 +14,7 @@
 
 # Running the example script:
 
-Usage: `python cam.py --image-path <path_to_image> --method <method>`
-
-To use with CUDA:
-`python cam.py --image-path <path_to_image> --use-cuda`
+`sh cam.sh`
 
 ----------
 
