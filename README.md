@@ -6,4 +6,4 @@ We are the first to propose the staged and overall architecture algorithms and l
 
 We also conducted a heatmap analysis to check the black-box nature of the deep learning model in this paper, and found that the OCT images focus on different regions for different glaucoma diseases.
 
-![image](https://github.com/fjcu-ee-islab/DLDAS/blob/main/flowchart/flowchart.png)
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/flowchart/flowchart.PNG)
