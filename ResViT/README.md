@@ -11,7 +11,7 @@ Enter IP/KubeRun in the browser, and you can connect to the same network domain.
 login:
 Click the login button on the upper right. After logging in, the screen is as follows.
 Note: There are two types of KubeRun login identities, administrator and user. Here first log in as an administrator to make settings.
-![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/adduser.png)
+<img src="https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/adduser.png" width="256" height="256">
 To create a general user, create steps:
 
 To add a new user in the Ubuntu environment, use the command 
