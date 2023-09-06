@@ -19,4 +19,4 @@ sh cam.sh
 ```
 # Merge all heamap results into one image
 
-'run the saveall.ipynb'
+```run the saveall.ipynb```
