@@ -10,8 +10,7 @@
 | LayerCAM            | Spatially weight the activations by positive gradients. Works better especially in lower layers                             |
 
 ## Visual Examples
-
- <img src="https://github.com/fjcu-ee-islab/ResViT/blob/main/heatmap/pytorch-grad-cam/example/example.png"
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/heatmap/pytorch-grad-cam/example/example.png)
 
 ## Object Detection and Semantic Segmentation
 | Object Detection | Semantic Segmentation |
