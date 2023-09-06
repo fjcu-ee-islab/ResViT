@@ -12,45 +12,6 @@
 ## Visual Examples
 ![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/heatmap/pytorch-grad-cam/example/example.png)
 
-## Object Detection and Semantic Segmentation
-| Object Detection | Semantic Segmentation |
-| -----------------|-----------------------|
-| <img src="./examples/both_detection.png" width="256" height="256"> | <img src="./examples/cars_segmentation.png" width="256" height="200"> |
-
-## Explaining similarity to other images / embeddings
-<img src="./examples/embeddings.png">
-
-## Deep Feature Factorization
-<img src="./examples/dff1.png">
-<img src="./examples/dff2.png">
-
-## Classification
-
-#### Resnet50:
-| Category  | Image | GradCAM  |  AblationCAM |  ScoreCAM |
-| ---------|-------|----------|------------|------------|
-| Dog    | ![](./examples/dog_cat.jfif) | ![](./examples/resnet50_dog_gradcam_cam.jpg)     |  ![](./examples/resnet50_dog_ablationcam_cam.jpg)   |![](./examples/resnet50_dog_scorecam_cam.jpg)   |
-| Cat    | ![](./examples/dog_cat.jfif?raw=true) | ![](./examples/resnet50_cat_gradcam_cam.jpg?raw=true)     |  ![](./examples/resnet50_cat_ablationcam_cam.jpg?raw=true)   |![](./examples/resnet50_cat_scorecam_cam.jpg)   |
-
-#### Vision Transfomer (Deit Tiny):
-| Category  | Image | GradCAM  |  AblationCAM |  ScoreCAM |
-| ---------|-------|----------|------------|------------|
-| Dog    | ![](./examples/dog_cat.jfif) | ![](./examples/vit_dog_gradcam_cam.jpg)     |  ![](./examples/vit_dog_ablationcam_cam.jpg)   |![](./examples/vit_dog_scorecam_cam.jpg)   |
-| Cat    | ![](./examples/dog_cat.jfif) | ![](./examples/vit_cat_gradcam_cam.jpg)     |  ![](./examples/vit_cat_ablationcam_cam.jpg)   |![](./examples/vit_cat_scorecam_cam.jpg)   |
-
-#### Swin Transfomer (Tiny window:7 patch:4 input-size:224):
-| Category  | Image | GradCAM  |  AblationCAM |  ScoreCAM |
-| ---------|-------|----------|------------|------------|
-| Dog    | ![](./examples/dog_cat.jfif) | ![](./examples/swinT_dog_gradcam_cam.jpg)     |  ![](./examples/swinT_dog_ablationcam_cam.jpg)   |![](./examples/swinT_dog_scorecam_cam.jpg)   |
-| Cat    | ![](./examples/dog_cat.jfif) | ![](./examples/swinT_cat_gradcam_cam.jpg)     |  ![](./examples/swinT_cat_ablationcam_cam.jpg)   |![](./examples/swinT_cat_scorecam_cam.jpg)   |
-
-
-# Metrics and Evaluation for XAI
-
-<img src="./examples/metrics.png">
-<img src="./examples/road.png">
-
-
 ----------
 # Chosing the Target Layer
 You need to choose the target layer to compute CAM for.
