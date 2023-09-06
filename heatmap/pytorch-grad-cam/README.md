@@ -1,4 +1,4 @@
-# Advanced AI explainability for PyTorch
+# AI explainability for PyTorch
 
 | Method              | What it does                                                                                                                |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------|
