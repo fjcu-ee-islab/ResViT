@@ -29,6 +29,17 @@ exclusive,
 If the GPU is used by one user, it cannot be used by another user.
 The Pending number is the upper limit of the number of concurrent schedules for this user.
 
+### image:
+
+image (image file) is similar to the master film of docker, one image can create many dockers for different tasks
+Add or create docker images, here take pull moeaidb/aigo:cu11.1-dnn8.0.5-gpu-pytorch-cv-20.12 as an example, as follows.
+
+The result after successful pull is as follows.
+
+### Custom image:
+
+To create a docker image that can be used by each user, you must first perform the above steps to create the user and obtain the docker image to be given to the user, as follows.
+
 
 ```
 pip install einops
