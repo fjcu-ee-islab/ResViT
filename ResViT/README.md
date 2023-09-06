@@ -22,6 +22,13 @@ Restart KubeRun to obtain the user UID GID and use the command
 
 ```cd /var/KubernetesUI/ && sudo ./4_startDockerCompose.sh```
 
+Add a new user, the screen is as follows. The account is the user added in step 1, the password can be set by yourself, and click Get UID
+GID button.
+MAX GPU In order to give the user the maximum number of GPUs that can be used at the same time, special attention is required. This UI GPU has
+exclusive,
+If the GPU is used by one user, it cannot be used by another user.
+The Pending number is the upper limit of the number of concurrent schedules for this user.
+
 
 ```
 pip install einops
