@@ -14,7 +14,7 @@ def main(args):
     model.eval()
 
     # 載入影像並對其進行預處理
-    path = str(args.rpath)
+    path = str(args.path)
     dirlist = os.listdir(path)
     dirlist.sort(key= lambda x:int(x[:-5]))
     a=0
@@ -53,17 +53,17 @@ def main(args):
 
             # 將輸出影像儲存到文件中
             if(a<10):
-                conv1_output.convert('RGB').save(str(args.spath)+'00000'+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+'00000'+str(a)+'.png')
             elif(a>=10 and a<100):
-                conv1_output.convert('RGB').save(str(args.spath)+'0000'+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+'0000'+str(a)+'.png')
             elif(a>=100 and a<1000):
-                conv1_output.convert('RGB').save(str(args.spath)+'000'+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+'000'+str(a)+'.png')
             elif(a>=1000 and a<10000):
-                conv1_output.convert('RGB').save(str(args.spath)+'00'+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+'00'+str(a)+'.png')
             elif(a>=10000 and a<100000):
-                conv1_output.convert('RGB').save(str(args.spath)+'0'+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+'0'+str(a)+'.png')
             else:
-                conv1_output.convert('RGB').save(str(args.spath)+''+str(a)+'.png')
+                conv1_output.convert('RGB').save(str(args.path)+''+str(a)+'.png')
             a=a+1
             #conv1_output.save(str(i)+'resnet_conv1_output.png')
 
@@ -71,7 +71,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--classname', type=str, default="normal")
-    parser.add_argument('--rpath', type=str, default=None)
+    parser.add_argument('--path', type=str, default=None)
     parser.add_argument('--spath', type=str, default=None)
     opt = parser.parse_args()
     main(opt)
