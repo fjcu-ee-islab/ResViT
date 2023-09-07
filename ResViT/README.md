@@ -59,7 +59,7 @@ If you don’t have kuberun, please install the docker environment yourself
 
 ## ResVIT training & test
 
-Downloads [training data](https://drive.google.com/file/d/1opxAa7whSmHUQIHya9Re1yFUo_ZNynqC/view?usp=drive_link)
+Downloads [training data]()
 
 downloads training & test data put in ```./data/train```
 
