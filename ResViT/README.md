@@ -31,7 +31,7 @@ exclusive,
 If the GPU is used by one user, it cannot be used by another user.
 The Pending number is the upper limit of the number of concurrent schedules for this user.
 
-![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/adduser.png =80)
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/adduser.png =80%x)
 
 ### image:
 
