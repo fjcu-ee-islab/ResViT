@@ -55,6 +55,7 @@ After entering the environment, you need to install einops :
 pip install einops
 ```
 
+If you don’t have kuberun, please install the docker environment yourself
 
 ## ResVIT training & test
 ### ResVit preprocessing
