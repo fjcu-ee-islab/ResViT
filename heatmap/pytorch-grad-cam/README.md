@@ -12,6 +12,8 @@
 ## Visual Examples
 ![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/heatmap/pytorch-grad-cam/example/example.png)
 
+before start you should run ```pip install ttach```
+
 # Running the example script:
 
 ```
