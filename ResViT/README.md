@@ -38,7 +38,11 @@ The Pending number is the upper limit of the number of concurrent schedules for 
 image (image file) is similar to the master film of docker, one image can create many dockers for different tasks
 Add or create docker images, here take pull moeaidb/aigo:cu11.1-dnn8.0.5-gpu-pytorch-cv-20.12 as an example, as follows.
 
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/pullimage.png)
+
 The result after successful pull is as follows.
+
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/pulldone.png)
 
 ### Custom image:
 
