@@ -14,9 +14,7 @@ Note: There are two types of KubeRun login identities, administrator and user. H
 
 ![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/login.png)
 
-To create a general user, after successful creation, the result is as follows:
-
-![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/custom.png)
+The working environment started from this interface uses the upper limit of CPU and memory.
 
 To add a new user in the Ubuntu environment, use the command 
 
@@ -50,6 +48,7 @@ The result after successful pull is as follows.
 
 To create a docker image that can be used by each user, you must first perform the above steps to create the user and obtain the docker image to be given to the user, as follows.
 
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/custom.png)
 
 ```
 pip install einops
