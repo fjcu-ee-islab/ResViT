@@ -50,7 +50,7 @@ To create a docker image that can be used by each user, you must first perform t
 
 ![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/custom.png)
 
-
+After entering the environment, you need to install einops :
 ```
 pip install einops
 ```
