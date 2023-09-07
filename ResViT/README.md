@@ -14,7 +14,9 @@ Note: There are two types of KubeRun login identities, administrator and user. H
 
 ![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/login.png)
 
-To create a general user, create steps:
+To create a general user, after successful creation, the result is as follows:
+
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/custom.png)
 
 To add a new user in the Ubuntu environment, use the command 
 
