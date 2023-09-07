@@ -31,6 +31,8 @@ exclusive,
 If the GPU is used by one user, it cannot be used by another user.
 The Pending number is the upper limit of the number of concurrent schedules for this user.
 
+![image](https://github.com/fjcu-ee-islab/ResViT/blob/main/ResViT/kuberun/adduser.png)
+
 ### image:
 
 image (image file) is similar to the master film of docker, one image can create many dockers for different tasks
