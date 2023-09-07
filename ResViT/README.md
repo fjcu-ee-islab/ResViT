@@ -60,9 +60,9 @@ If you don’t have kuberun, please install the docker environment yourself
 ## ResVIT training & test
 
 Downloads [training data](https://drive.google.com/file/d/1opxAa7whSmHUQIHya9Re1yFUo_ZNynqC/view?usp=drive_link)
+downloads training & test data put in ```./data/train```
 
 ### ResVit preprocessing
-downloads training & test data put in ```./data/train```
 
 Use ```datapick.ipynb``` to select the OCT angle to train 
 
@@ -71,12 +71,12 @@ sh crop.sh
 sh cropaug.sh
 ```
 ### ResVit training
-downloads training & test data put in ```./data/train```
+
 ```
 sh train.sh
 ```
 ### ResVit test
-downloads training & test data put in ```./data/train```
+
 ```
 sh test.sh
 ```
