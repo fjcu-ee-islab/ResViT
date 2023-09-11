@@ -61,6 +61,8 @@ If you don’t have kuberun, please install the docker environment yourself
 
 Downloads [training data]()
 
+Note: After completing each step, please confirm whether the ```.ipynb_checkpoint``` file is generated. If so, please delete it.
+
 downloads training & test data put in ```./data/train```
 
 ### ResVit preprocessing
