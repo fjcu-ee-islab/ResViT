@@ -108,3 +108,5 @@ wpath is the path of the weight
 ```
 sh test.sh
 ```
+
+After the execution is completed, the accuracy will be stored in the file ```predict.txt.```
