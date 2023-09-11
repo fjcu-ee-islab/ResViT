@@ -44,7 +44,7 @@ def main(args):
             img = torch.unsqueeze(img, dim=0)
 
             # read class_indict
-            json_path = 'class_indices601.json'
+            json_path = 'class_indices21.json'
             assert os.path.exists(json_path), "file: '{}' dose not exist.".format(json_path)
 
             with open(json_path, "r") as f:
