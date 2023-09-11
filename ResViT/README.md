@@ -81,6 +81,17 @@ sh cropaug.sh
 ```
 ### ResVit training
 
+Run the following sh file to complete training
+
+Parameters of train.sh:
+
+classname is the category name
+
+path is the path of the training data 
+
+num_classe is the number of categories
+
+pick is the name of the folder where the weights are stored
 ```
 sh train.sh
 ```
