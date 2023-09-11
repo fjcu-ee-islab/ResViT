@@ -67,6 +67,11 @@ downloads training & test data put in ```./data/train```
 
 Use ```datapick.ipynb``` to select the OCT angle to train 
 
+Run the following sh file to complete data augmentation
+
+Parameters of crop.sh: rpath is the path to read the original file
+
+                       spath is the storage file path after corp
 ```
 sh crop.sh
 sh cropaug.sh
