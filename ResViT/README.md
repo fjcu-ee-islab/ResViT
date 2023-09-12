@@ -71,7 +71,7 @@ Use ```datapick.ipynb``` to select the OCT angle to train
 
 Run the following sh file to complete data augmentation
 
-Parameters of crop.sh & cropsug.sh: 
+Parameters of ```crop.sh``` & ```cropsug.sh```: 
 
 rpath is the path to read the original file
 
@@ -85,7 +85,7 @@ sh cropaug.sh
 
 Run the following sh file to complete training
 
-Parameters of train.sh:
+Parameters of ```train.sh```:
 
 classname is the category name
 
@@ -103,7 +103,7 @@ After train.sh is executed, the weights stored in each epoch will be output and 
 
 Run test.sh file for prediction
 
-Parameters of test.sh:
+Parameters of ```test.sh```:
 
 wpath is the path of the weight
 
