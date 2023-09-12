@@ -59,7 +59,7 @@ If you don’t have kuberun, please install the docker environment yourself
 
 ## ResVIT training & test
 
-Downloads [training data]()
+Downloads [training data](https://140.136.147.168:3146/sharing/50RvXHoWK)
 
 Note: After completing each step, please confirm whether the ```.ipynb_checkpoint``` file is generated. If so, please delete it.
 
