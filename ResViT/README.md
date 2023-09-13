@@ -102,7 +102,7 @@ Parameters of ```train.sh```:
 sh train.sh
 ```
 
-After executing the above sh file, data augmentation will be completed.
+After executing the train.sh file, training will be completed, and weights will be saved in weights file.
 
 ### ResVit test
 
