@@ -98,6 +98,8 @@ pick is the name of the folder where the weights are stored
 sh train.sh
 ```
 
+After executing the above sh file, data augmentation will be completed.
+
 After train.sh is executed, the weights stored in each epoch will be output and stored in the weights folder.
 ### ResVit test
 
