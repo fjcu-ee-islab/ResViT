@@ -81,6 +81,9 @@ spath is the storage file path after corp
 sh crop.sh
 sh cropaug.sh
 ```
+
+After executing the above sh file, data augmentation will be completed.
+
 ### ResVit training
 
 Run the following sh file to complete training
@@ -100,7 +103,6 @@ sh train.sh
 
 After executing the above sh file, data augmentation will be completed.
 
-After train.sh is executed, the weights stored in each epoch will be output and stored in the weights folder.
 ### ResVit test
 
 Run test.sh file for prediction
