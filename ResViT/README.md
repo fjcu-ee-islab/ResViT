@@ -74,9 +74,9 @@ Run the following sh file to complete data augmentation
 
 Parameters of ```crop.sh``` & ```cropsug.sh```: 
 
-rpath is the path to read the original file
+"rpath" is the path to read the original file
 
-spath is the storage file path after corp
+"spath" is the storage file path after corp
                        
 ```
 sh crop.sh
@@ -93,11 +93,11 @@ Parameters of ```train.sh```:
 
 "classname" is the category name
 
-path is the path of the training data 
+"path" is the path of the training data 
 
-num_classe is the number of categories
+"num_classe" is the number of categories
 
-pick is the name of the folder where the weights are stored
+"pick" is the name of the folder where the weights are stored
 ```
 sh train.sh
 ```
@@ -110,7 +110,7 @@ Run test.sh file for prediction
 
 Parameters of ```test.sh```:
 
-wpath is the path of the weight
+"wpath" is the path of the weight
 
 ```
 sh test.sh
