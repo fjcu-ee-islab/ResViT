@@ -91,7 +91,7 @@ Run the following sh file to complete training
 
 Parameters of ```train.sh```:
 
-classname is the category name
+"classname" is the category name
 
 path is the path of the training data 
 
