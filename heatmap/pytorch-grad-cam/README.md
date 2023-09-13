@@ -18,11 +18,11 @@ before start you should run ```pip install ttach``` first
 
 Parameters of ```cam.sh```:
 
-image-path is the path to read the image
+"image-path" is the path to read the image
 
-method is cam method
+"method" is cam method
 
-savepath is the path to store cam results
+"savepath" is the path to store cam results
 
 ```
 sh cam.sh
